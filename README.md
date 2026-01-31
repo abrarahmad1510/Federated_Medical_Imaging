@@ -3,7 +3,7 @@
 <table>
 <tr>
 <td width="200">
-<img width="512" height="512" alt="Medical FL Platform Logo" src="https://icons8.com/icon/CCqNTDaBOQH9/mri" />
+<img width="512" height="512" src="https://img.icons8.com/external-wanicon-lineal-color-wanicon/64/external-mri-medical-technology-wanicon-lineal-color-wanicon.png" alt="external-mri-medical-technology-wanicon-lineal-color-wanicon"/>
 </td>
 <td>
   <h3>Enterprise-Grade Federated Learning for Privacy-Preserving Medical Image Segmentation</h3>
