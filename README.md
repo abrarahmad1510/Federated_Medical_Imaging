@@ -487,7 +487,7 @@ audit.to_dataframe().to_csv("privacy_audit.csv")
 
 ### System Architecture Overview
 
-The Medical FL Platform implements a distributed, privacy-preserving architecture designed specifically for healthcare environments. The system supports thousands of concurrent clients while maintaining HIPAA compliance and sub-second model update latency.
+Our Medical FL Platform features a distributed, privacy-preserving architecture tailored for healthcare deployments. It supports thousands of concurrent clients while ensuring HIPAA compliance and delivering sub-second model update performance.
 
 ![System Architecture](System_Architecture.png)
 
@@ -752,33 +752,6 @@ git push origin feature/your-feature-name
 | **Documentation** | Tutorials, deployment guides, API docs | Low |
 | **Testing** | Unit tests, integration tests, performance tests | Moderate |
 | **Cloud Integrations** | GCP, Azure deployment templates | Moderate |
-
-### Code Quality Standards
-
-- **Test Coverage**: Maintain >80% code coverage
-- **Type Hints**: Use Python type hints and TypeScript for type safety
-- **Documentation**: Docstrings for all public functions and classes
-- **Linting**: Pass `flake8`, `mypy`, `pylint`, and `eslint` checks
-- **Security**: No secrets in code, validate all inputs
-- **Performance**: Profile and optimize critical paths
-
-### Pull Request Process
-
-1. **Create Issue**: Describe the problem or feature request
-2. **Discuss**: Get feedback from maintainers before starting work
-3. **Implement**: Follow coding standards and write tests
-4. **Document**: Update relevant documentation
-5. **Test**: Ensure all tests pass and coverage is maintained
-6. **Submit PR**: Provide clear description and link to issue
-7. **Review**: Address feedback from code review
-8. **Merge**: Maintainers will merge after approval
-
-### Getting Help
-
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/yourusername/medical-fl-platform/discussions)
-- 🐛 **Bug Reports**: [Issue Tracker](https://github.com/yourusername/medical-fl-platform/issues)
-- 📧 **Email**: dev@medicalfl.example.org
-- 📚 **Documentation**: [docs.medicalfl.example.org](https://docs.medicalfl.example.org)
 
 ---
 
