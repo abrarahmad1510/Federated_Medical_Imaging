@@ -862,37 +862,6 @@ Special thanks to the healthcare institutions and researchers who participated i
 
 ---
 
-## Security & Compliance
-
-### Security Disclosure
-
-If you discover a security vulnerability, please email: security@medicalfl.example.org
-
-**Do not** create public GitHub issues for security vulnerabilities.
-
-### HIPAA Compliance
-
-This platform provides technical controls to support HIPAA compliance:
-
-- ✅ Encryption at rest and in transit
-- ✅ Access controls and audit logging
-- ✅ Data integrity and availability measures
-- ✅ Automatic session timeout
-- ✅ Role-based access control
-
-**Note**: Achieving full HIPAA compliance requires organizational policies, procedures, and business associate agreements beyond this software.
-
-### Privacy Guarantees
-
-The platform implements **ε-differential privacy** with mathematical privacy guarantees:
-
-- Configurable privacy budget (ε) per experiment
-- Automatic privacy budget tracking and enforcement
-- Gradient clipping and noise injection
-- Privacy audit logging for regulatory compliance
-
----
-
 <div align="center">
 
 ### 🏥 Advancing Healthcare AI Through Privacy-Preserving Collaboration 🏥
