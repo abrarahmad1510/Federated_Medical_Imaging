@@ -44,9 +44,7 @@
 
 The **Medical FL Platform** is an open-source, enterprise-ready federated learning system specifically designed for medical image segmentation across multiple healthcare institutions. It enables hospitals and research centers to collaboratively train state-of-the-art deep learning models while preserving patient privacy and maintaining HIPAA compliance.
 
-Traditional centralized machine learning requires aggregating sensitive patient data in a single location, creating privacy risks, regulatory challenges, and data governance concerns. Federated Learning solves this by bringing the model to the data instead of bringing data to the model - each hospital trains locally on their own data, sharing only model updates, never raw patient information.
-
-Our platform serves healthcare organizations and research institutions that need to leverage distributed medical data for AI development while maintaining the highest standards of privacy and security. By implementing differential privacy, secure aggregation, and comprehensive audit logging, we enable breakthrough research without compromising patient confidentiality.
+Traditional centralized machine learning requires aggregating sensitive patient data in a single location, creating privacy risks, regulatory challenges, and data governance concerns. Federated Learning solves this by bringing the model to the data instead of bringing data to the model - each hospital trains locally on their own data, sharing only model updates, never raw patient information. Our platform serves healthcare organizations and research institutions that need to leverage distributed medical data for AI development while maintaining the highest standards of privacy and security. By implementing differential privacy, secure aggregation, and comprehensive audit logging, we enable breakthrough research without compromising patient confidentiality.
 
 Built on production-grade technologies including Flower (federated learning framework), MONAI (medical imaging AI toolkit), PyTorch, Flask, and React, the platform provides everything needed to deploy federated learning in healthcare environments - from data preprocessing to model deployment and monitoring.
 
@@ -90,51 +88,16 @@ Train models collaboratively across multiple hospitals without sharing patient d
 Mathematical privacy guarantees with ε-differential privacy implementation. Configurable privacy budgets allow institutions to balance model accuracy with privacy protection. Real-time privacy budget tracking ensures compliance with institutional policies and regulatory requirements.
 
 ### 🧠 Medical Imaging Specialization
-Built on MONAI (Medical Open Network for AI) with optimized support for:
-- **3D Medical Imaging**: Brain MRI, CT scans, full-body imaging
-- **Segmentation Tasks**: Tumor detection, organ segmentation, lesion identification
-- **Multiple Modalities**: MRI (T1, T2, FLAIR), CT, PET, X-Ray, Pathology slides
-- **Data Formats**: DICOM, NIfTI, NRRD, and standard image formats
+Built on MONAI (Medical Open Network for AI) with optimized support for 3D medical imaging including brain MRI, CT scans, and full-body imaging. Supports diverse segmentation tasks such as tumor detection, organ segmentation, and lesion identification across multiple modalities including MRI (T1, T2, FLAIR), CT, PET, X-Ray, and pathology slides. Handles all major medical data formats including DICOM, NIfTI, NRRD, and standard image formats.
 
 ### 📊 Real-Time Monitoring Dashboard
-Beautiful, intuitive React dashboard for monitoring training progress:
-- Live training metrics (accuracy, loss, Dice score) across all participating institutions
-- Per-client performance tracking and contribution analysis
-- Privacy budget consumption visualization
-- Service health monitoring and alerts
-- Model performance comparison across rounds
+Beautiful, intuitive React dashboard for monitoring training progress with live training metrics (accuracy, loss, Dice score) across all participating institutions. Features per-client performance tracking and contribution analysis, privacy budget consumption visualization, service health monitoring and alerts, and model performance comparison across rounds.
 
 ### 🔐 Enterprise Security & Compliance
-Production-ready security architecture:
-- End-to-end TLS 1.3 encryption for all communications
-- JWT-based authentication with role-based access control (RBAC)
-- Comprehensive audit logging for regulatory compliance
-- HIPAA-ready deployment configurations
-- Support for institutional VPN and firewall requirements
-
-### ⚡ High Performance & Scalability
-Optimized for production workloads:
-- Asynchronous federated averaging with configurable client sampling
-- GPU acceleration for training with mixed precision support
-- Horizontal scaling with Kubernetes orchestration
-- Efficient data loading with MONAI transforms and caching
-- Support for 100+ concurrent participating institutions
-
-### 🎯 Model Versioning & Experiment Tracking
-Complete MLOps capabilities:
-- MLflow integration for experiment tracking and model registry
-- Automatic versioning of global and local models
-- A/B testing and model comparison
-- Model performance analytics across institutions
-- Export to ONNX for deployment
+Production-ready security architecture with end-to-end TLS 1.3 encryption for all communications, JWT-based authentication with role-based access control (RBAC), and comprehensive audit logging for regulatory compliance. Includes HIPAA-ready deployment configurations and support for institutional VPN and firewall requirements.
 
 ### 🌐 Flexible Deployment Options
-Deploy anywhere:
-- **Docker Compose**: Quick local development and testing
-- **Kubernetes**: Production-grade orchestration with Helm charts
-- **Multi-Cloud**: AWS, Azure, GCP support
-- **On-Premise**: Deploy within hospital data centers
-- **Hybrid**: Mix cloud and on-premise infrastructure
+Deploy anywhere with support for Docker Compose (local development), Kubernetes (production orchestration), multi-cloud (AWS, Azure, GCP), on-premise (hospital data centers), and hybrid infrastructure configurations.
 
 ---
 
@@ -144,7 +107,6 @@ Deploy anywhere:
 - Docker 24.0+ and Docker Compose 2.20+
 - Python 3.9+ (for local development)
 - Node.js 18+ (for dashboard development)
-- At least 16GB RAM and 50GB disk space
 - GPU recommended for model training (NVIDIA with CUDA 11.8+)
 
 ### Quick Start with Docker Compose
