@@ -950,24 +950,9 @@ The platform implements **ε-differential privacy** with mathematical privacy gu
 ### Commercial Support
 
 For enterprise deployments, training, and custom development:
-- 📧 Email: enterprise@medicalfl.example.org
+- 📧 Email: abrarahmad.professional@gmail.com
 - 🌐 Website: https://medicalfl.example.org
 - 📞 Phone: +1 (555) 123-4567
-
-### Community Support
-
-- 💬 [GitHub Discussions](https://github.com/yourusername/medical-fl-platform/discussions)
-- 📚 [Documentation](https://docs.medicalfl.example.org)
-- 🐛 [Issue Tracker](https://github.com/yourusername/medical-fl-platform/issues)
-- 📖 [Wiki](https://github.com/yourusername/medical-fl-platform/wiki)
-
-### Training & Workshops
-
-We offer workshops and training sessions for:
-- Federated learning fundamentals
-- Medical imaging AI development
-- Privacy-preserving machine learning
-- Platform deployment and administration
 
 Contact: training@medicalfl.example.org
 
