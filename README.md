@@ -96,9 +96,6 @@ Beautiful, intuitive React dashboard for monitoring training progress with live 
 ### 🔐 Enterprise Security & Compliance
 Production-ready security architecture with end-to-end TLS 1.3 encryption for all communications, JWT-based authentication with role-based access control (RBAC), and comprehensive audit logging for regulatory compliance. Includes HIPAA-ready deployment configurations and support for institutional VPN and firewall requirements.
 
-### 🌐 Flexible Deployment Options
-Deploy anywhere with support for Docker Compose (local development), Kubernetes (production orchestration), multi-cloud (AWS, Azure, GCP), on-premise (hospital data centers), and hybrid infrastructure configurations.
-
 ---
 
 ## Getting Started
@@ -644,57 +641,6 @@ Production-grade ML operations and monitoring:
 
 ---
 
-## Technology Stack
-
-<p align="center">
-  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img alt="Flask" src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" />
-  <img alt="React" src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
-</p>
-
-### Detailed Technology Stack
-
-**Federated Learning & ML:**
-- Flower 1.5 - Federated learning framework
-- PyTorch 2.0 - Deep learning framework
-- MONAI 1.2 - Medical imaging AI toolkit
-- Opacus 1.4 - Differential privacy for PyTorch
-- MLflow 2.5 - Experiment tracking and model registry
-
-**Backend Services:**
-- Flask 2.3 - Web framework
-- SQLAlchemy 2.0 - ORM and database toolkit
-- PostgreSQL 15 - Primary database
-- Redis 7 - Caching and message broker
-- Celery 5.3 - Distributed task queue
-
-**Frontend:**
-- React 18 - UI framework
-- TypeScript 5 - Type-safe JavaScript
-- Material-UI 5 - Component library
-- Redux Toolkit - State management
-- Recharts - Data visualization
-
-**Infrastructure:**
-- Docker 24 - Containerization
-- Kubernetes 1.27 - Orchestration
-- Helm 3 - Package management
-- Prometheus - Metrics collection
-- Grafana 10 - Monitoring dashboards
-
-**Medical Imaging:**
-- SimpleITK 2.2 - Image processing
-- pydicom 2.3 - DICOM file handling
-- nibabel 5.1 - NIfTI file support
-- OpenCV 4.8 - Image transformations
-
----
-
 ## Configuration
 
 ### Environment Variables
@@ -885,38 +831,6 @@ git push origin feature/your-feature-name
 - 🐛 **Bug Reports**: [Issue Tracker](https://github.com/yourusername/medical-fl-platform/issues)
 - 📧 **Email**: dev@medicalfl.example.org
 - 📚 **Documentation**: [docs.medicalfl.example.org](https://docs.medicalfl.example.org)
-
----
-
-## Roadmap
-
-### Current (v1.0 - Released)
-- ✅ Multi-cloud federated learning (AWS, Azure, GCP)
-- ✅ Differential privacy implementation
-- ✅ Brain tumor segmentation (BraTS dataset)
-- ✅ Real-time monitoring dashboard
-- ✅ Docker and Kubernetes deployment
-
-### Near Term (v1.5 - Q2 2026)
-- 🔄 Secure aggregation protocol
-- 🔄 Additional medical imaging tasks (lung nodules, organ segmentation)
-- 🔄 Federated learning algorithm library (FedProx, FedBN, FedNova)
-- 🔄 Automated hyperparameter tuning
-- 🔄 Mobile client support (edge hospitals)
-
-### Medium Term (v2.0 - Q4 2026)
-- 📋 Vertical federated learning for multi-modal data
-- 📋 Homomorphic encryption support
-- 📋 Federated transfer learning
-- 📋 Support for pathology whole-slide images
-- 📋 Regulatory compliance toolkit (FDA, CE marking)
-
-### Long Term (v3.0 - 2027)
-- 💡 Cross-silo + cross-device FL (hospital + wearables)
-- 💡 Automated federated neural architecture search
-- 💡 Blockchain-based model provenance
-- 💡 Federated reinforcement learning for treatment optimization
-- 💡 Integration with EHR systems (FHIR)
 
 ---
 
