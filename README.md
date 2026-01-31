@@ -483,7 +483,7 @@ audit.to_dataframe().to_csv("privacy_audit.csv")
 
 ---
 
-## Architecture
+## System Architecture & Design
 
 ### System Architecture Overview
 
