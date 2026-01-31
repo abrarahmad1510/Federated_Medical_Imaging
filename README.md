@@ -835,7 +835,7 @@ Special thanks to the healthcare institutions and researchers who participated i
 
 ---
 
-<div align="left">
+<div align="center">
 
 ### Advancing Healthcare AI Through Privacy-Preserving Collaboration 
 
